@@ -1,0 +1,103 @@
+# Environment files
+.env
+.venv
+venv/
+ENV/
+env/
+*.env
+
+# Google Cloud credentials
+*credentials.json
+google_credentials.json
+*creds*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Data files
+raw_data/
+*.csv
+*.xlsx
+*.parquet
+*.json
+!sample_data/*.csv
+!sample_data/*.json
+
+# Logs
+logs/
+*.log
+log.txt
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Mage
+.mage_temp/
+.mage-ai/
+__pycache__/
+instance/
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Package dependencies
+poetry.lock
+package-lock.json
+yarn.lock
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
